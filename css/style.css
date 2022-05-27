@@ -1,0 +1,37 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#local{
+    width: 100%;
+    background-color: #ffe203;
+    padding: 15px 0;
+    margin: 0;
+
+
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+#cities{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cities td{
+    border: 1px solid #ffe20395;
+    padding: 8px;
+}
+
+#cities tr:nth-child(even){
+    background-color:#ffe2035d;
+}
+
+.col1{
+    width: 10%;
+}
+
+.col2{
+    width: 45%;
+}
